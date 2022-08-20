@@ -1,0 +1,23 @@
+.miniPhoto {
+    width: 180px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.miniPhoto_image {
+    position: absolute;
+    height: 350px;
+    transform: translateX(-50%);
+}
+
+.miniPhoto_image:hover {
+    cursor: pointer;
+}
+
+.nonVisible {
+    display: none
+}

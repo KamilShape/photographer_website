@@ -1,5 +1,5 @@
 .header {
-    height: calc(100vh - 200px);
+    height: calc(100vh - 80px);
     position: relative;
 }
 
@@ -40,8 +40,3 @@
     left: 50%;
     transform: translate(-50%);
 }
-
-
-/* .header_image-container {
-    background-color: red;
-} */
