@@ -8,7 +8,19 @@
 .gallery_photos {
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
-    justify-content: space-evenly;
+    width: 100%;
+    justify-content: center;
     margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .gallery_photos {
+        width: 680px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .gallery_photos {
+        width: 1020px;
+    }
 }

@@ -20,8 +20,9 @@
 .largePhoto_image {
     position: absolute;
     display: block;
+    top: 50%;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%, -50%);
     max-width: 100%;
     max-height: 100%;
 }
@@ -29,29 +30,3 @@
 .nonVisible {
     display: none
 }
-
-
-/* @media (min-width: 768px) {
-    .app_container {
-        width: 750px;
-    }
-    .largePhoto_imageContainer {
-        width: 700px;
-    }
-    .largePhoto_image {
-        width: 700px;
-    }
-}
-
-@media (min-width: 1280px) {
-    .app_container {
-        width: 1100px;
-    }
-    .largePhoto_imageContainer {
-        width: 1100px;
-        top: 10%;
-    }
-    .largePhoto_image {
-        width: 1100px;
-    }
-} */
