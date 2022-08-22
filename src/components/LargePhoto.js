@@ -1,21 +1,18 @@
 import React from 'react';
-import './LargePhoto.css'
-class LargePhoto extends React.Component {
-    showVisible = () =>{
-        console.log(this.props.visible)
-    }
-  render(){
+import './styles/largephoto.css'
+function LargePhoto(props) {
+    // function showVisible (){
+    //    props.visible = false
+    // }
     return(
-        <div className={this.props.visible ? '' : 'nonVisible'}>
-            <div className='largePhoto_container'>
+        // <div className={props.visible? '' : "nonVisible"}>
+            <div className={props.visible ? 'largePhoto_container' : 'nonVisible'} onClick={props.showLarge}>
                 <div className='largePhoto_imageContainer'>
-                    <button className='largePhoto_button' onClick={this.props.handleShowPhoto}>X</button>
-                    <img className='largePhoto_image' src={`architecture_photos/${this.props.name}.jpg`}/> 
+                    <img className='largePhoto_image' src={props.largeUrl}/> 
                 </div>
             </div>
-        </div>
+        // </div>
     ) 
-  }
 }
 
 export default LargePhoto

@@ -1,6 +1,7 @@
 .header {
     height: calc(100vh - 80px);
     position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .header_container {
