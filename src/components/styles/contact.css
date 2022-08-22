@@ -1,0 +1,52 @@
+.contact {
+    /* height: 100vh; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+}
+
+.contact_form {
+    margin: 10px auto;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_input_container {
+    display: flex;
+}
+
+.contact_input_label {
+    margin: 10px 0;
+    width: 30%;
+}
+
+.contact_input {
+    margin: 10px 0;
+    padding: 2px;
+    width: 70%;
+    outline: none;
+}
+
+.contact_title {
+    font-size: 35px;
+    padding: 20px 0 10px 0;
+}
+
+.contact_message {
+    display: block;
+    padding: 10px;
+    height: 200px;
+    outline: none;
+}
+
+.contact_socials {
+    display: flex;
+    width: 350px;
+    margin: 40px auto;
+    justify-content: space-evenly;
+}
+
+.contact_socials-icon {
+    display: block;
+    font-size: 30px
+}

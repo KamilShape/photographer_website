@@ -1,4 +1,5 @@
 import React from "react";
+import './styles/gallery.css';
 import MiniPhoto from "./MiniPhoto";
 
 function Gallery() {
@@ -16,7 +17,7 @@ function Gallery() {
 
   return (
     <div className="gallery">
-      <div className="gallery_tittle">GALLERY</div>
+      <div className="title">GALLERY</div>
       <div className="gallery_photos">
           {photos}
       </div>
