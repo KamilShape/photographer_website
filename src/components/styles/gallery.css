@@ -1,7 +1,8 @@
 .gallery {
     height: 100%;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 20px;
+    border-bottom: 1px solid rgba(40, 45, 53, 255);
+    transition: 0.4s ease-out;
 }
 
 .gallery_photos {

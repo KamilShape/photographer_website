@@ -1,5 +1,5 @@
 .footer {
-    /* background-color: red; */
     text-align: center;
     padding: 20px;
+    transition: 0.4s ease-out;
 }

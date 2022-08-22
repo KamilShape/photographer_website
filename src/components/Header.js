@@ -1,8 +1,8 @@
 import portrait from './images/portrait.png'
 import './styles/header.css';
-function Header() {
+function Header(props) {
   return (
-    <div className="header">
+    <div className={props.darkMode ? "header darkMode" : "header"}>
       <div className="header_container left">
         <h1 className="header_tittle">Hi! <br /> Welcome to my world!</h1>
       </div>

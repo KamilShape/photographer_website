@@ -4,9 +4,16 @@
     font-family: 'Cinzel', sans-serif;
     box-sizing: border-box;
     transition: none;
+    color: rgba(40, 45, 53, 255);
 }
 
 .title {
     text-align: center;
     font-size: 50px;
+}
+
+.darkMode {
+    background-color: rgba(40, 45, 53, 255);
+    color: white;
+    border-bottom: 1px solid rgb(245, 245, 245)
 }
