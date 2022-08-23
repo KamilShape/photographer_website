@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/photographer_website/static/css/main.b469f295.css",
-    "main.js": "/photographer_website/static/js/main.c401a60a.js",
+    "main.css": "/photographer_website/static/css/main.07279d5f.css",
+    "main.js": "/photographer_website/static/js/main.71a51465.js",
     "static/media/portrait.jpg": "/photographer_website/static/media/portrait.1f2c5e0db6e0f7704a23.jpg",
     "static/media/landscape.jpg": "/photographer_website/static/media/landscape.e0cd23a6327acbefeb3c.jpg",
     "static/media/logo.png": "/photographer_website/static/media/logo.a206d9721c9411a53459.png",
     "index.html": "/photographer_website/index.html",
-    "main.b469f295.css.map": "/photographer_website/static/css/main.b469f295.css.map",
-    "main.c401a60a.js.map": "/photographer_website/static/js/main.c401a60a.js.map"
+    "main.07279d5f.css.map": "/photographer_website/static/css/main.07279d5f.css.map",
+    "main.71a51465.js.map": "/photographer_website/static/js/main.71a51465.js.map"
   },
   "entrypoints": [
-    "static/css/main.b469f295.css",
-    "static/js/main.c401a60a.js"
+    "static/css/main.07279d5f.css",
+    "static/js/main.71a51465.js"
   ]
 }
