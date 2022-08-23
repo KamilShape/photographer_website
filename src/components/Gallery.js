@@ -15,7 +15,7 @@ function Gallery(props) {
 
 
   return (
-    <div className={props.darkMode ? "gallery darkMode" : "gallery"}>
+    <div className={props.darkMode ? " darkMode gallery" : "gallery"}>
       <div className="title">GALLERY</div>
       <div className="gallery_photos">
           {photos}

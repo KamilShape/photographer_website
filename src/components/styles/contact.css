@@ -3,6 +3,12 @@
     border-bottom: 1px solid rgba(40, 45, 53, 255)
 }
 
+.contact.darkMode {
+    background-color: rgba(40, 45, 53, 255);
+    color: white;
+    border-bottom: 1px solid white;
+}
+
 .contact_form {
     margin: 10px auto;
     width: 350px;
