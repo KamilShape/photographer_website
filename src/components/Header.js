@@ -1,7 +1,11 @@
 import portrait from './images/portrait.jpg'
 import landscape from './images/landscape.jpg'
 import './styles/header.css';
+import { useState } from 'react';
 function Header(props) {
+  const fn = () => []
+  const [state, setState] = useState(fn())
+  console.log(fn())
   return (
     <div className={props.darkMode ? "header darkMode " : "header"}>
         <div className={props.darkMode ? "header_container darkMode" : "header_container"}>

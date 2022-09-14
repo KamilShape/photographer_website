@@ -25,6 +25,13 @@
 
 .navBar_title {
     margin: auto;
+    font-size: 20px;
+}
+
+@media (min-width: 768px) {
+    .navBar_title {
+        font-size: 30px;
+    }
 }
 
 .navBar_toggle {

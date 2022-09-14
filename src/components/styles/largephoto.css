@@ -1,4 +1,5 @@
 .largePhoto_container {
+    transition: 0.5s ease-in-out;
     position: fixed;
     top: 0;
     left: 0;
@@ -6,20 +7,20 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
     z-index: 5;
-    transition: 0.4s ease-out;
 }
 
 .largePhoto_imageContainer {
+    transition: 0.5s ease-in-out;
     position: relative;
     height: 90vh;
     width: auto;
     top: 5%;
-    transition: 0.5s ease-in-out;
 }
 
 .largePhoto_image {
     position: absolute;
-    display: block;
+    visibility: visible;
+    opacity: 1;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -28,5 +29,6 @@
 }
 
 .nonVisible {
-    display: none
+    visibility: hidden;
+    opacity: 0;
 }

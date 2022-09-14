@@ -9,7 +9,7 @@ function MiniPhoto(props) {
     }
         return(
             <div className='miniPhoto'>
-                <img className='miniPhoto_image' src={props.smallUrl} alt=''  onClick={showLarge}/>
+                <img className='miniPhoto_image' src={props.smallUrl} alt='photo'  onClick={showLarge}/>
                 <LargePhoto visible={visible} showLarge={showLarge} largeUrl={props.largeUrl} />
             </div>
         )    
